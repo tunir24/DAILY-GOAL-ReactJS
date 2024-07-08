@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.header{
+  background-color: blue;
+  padding: 20px;
+  color: aliceblue;
+  font-size: larger;
+  display: flex;
+  justify-content: center;
+}
+
+.input{
+  padding: 10px;
+  width: 60vw;
+  margin-bottom: 15px;
+}
+.textarea{
+  padding: 25px;
+  width: 60vw;
+}
+.total{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.button{
+  font-weight: bold;
+  padding: 20px;
+  margin-top: 25px;
+  background-color: rgb(194, 247, 230);
+  border-radius: 20px ;
+  border: 4px solid crimson;
+}
+.full{
+  display: flex;
+  align-items: center ;
+  justify-content: center;
+}
+
+.show{
+  justify-content: space-between;
+  display: flex;
+  border: 2px solid black;
+  width: 80vw;
+  max-height: 15vh;
+  margin-top: 5vh;
+  background-color: rgb(249, 214, 168);
+  overflow: scroll;
+}
+.butto{
+  display: flex;
+  align-items: center;
+}
+.set{
+  display: flex;
+  flex-direction: column;
+}
+
+.button1{
+  font-size: larger;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(232, 61, 61);
+  color: aliceblue;
+  padding: 15px;
+  height: 30px;
+  width: 30px;
+  border-radius: 40px;
+}
+.button1:hover{
+  background-color: red;
+}
